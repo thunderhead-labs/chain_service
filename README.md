@@ -4,7 +4,7 @@ This repository contains the [PoktInfo](https://beta.pokt.info) services that de
 
 # Installation
 
-1. Follow the Installation steps of [common](https://github.com/thunderhead-labs/common#readme), a requisite for PoktInfo which contains the ORM, generic interactions, and more.
+1. Follow the Installation steps of [common](https://github.com/thunderhead-labs/common-os#readme), a requisite for PoktInfo which contains the ORM, generic interactions, and more.
 2. Clone this repository
 3. Follow the steps for the desired service below
 
@@ -33,7 +33,7 @@ Performs the same process as historical mode, but calls `record_rewards` startin
 
 ### Schema
 
-Please see [here](https://github.com/thunderhead-labs/common/blob/master/common/orm/schema/poktinfo.py#L229) for the rewards info schema definition.
+Please see [here](https://github.com/thunderhead-labs/common-os/blob/master/common/orm/schema/poktinfo.py#L229) for the rewards info schema definition.
 
 # Nodes Info
 
@@ -61,7 +61,7 @@ Live mode starts from the last indexed height and will call `record_nodes_info_w
 
 ### Schema
 
-Please see [here](https://github.com/thunderhead-labs/common/blob/master/common/orm/schema/poktinfo.py#L210) for the nodes info schema definition.
+Please see [here](https://github.com/thunderhead-labs/common-os/blob/master/common/orm/schema/poktinfo.py#L210) for the nodes info schema definition.
 
 # Location Info
 
@@ -87,4 +87,4 @@ Because you cannot find out where something was physically located in the past, 
 
 ### Schema
 
-Please see [here](https://github.com/thunderhead-labs/common/blob/master/common/orm/schema/poktinfo.py#L149) for the nodes info schema definition.
+Please see [here](https://github.com/thunderhead-labs/common-os/blob/master/common/orm/schema/poktinfo.py#L149) for the nodes info schema definition.
